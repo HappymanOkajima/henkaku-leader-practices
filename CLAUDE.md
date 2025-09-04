@@ -25,12 +25,17 @@ This is a Japanese book manuscript project titled "変革リーダーの実践�
 ## Writing Guidelines
 
 ### Chapter Structure Consistency
-Each chapter should follow the structure defined in `0-outline.md`:
+
+**Standardized Section Structure**:
+- **Chapter 1**: Content → Summary → Appendix (Tools, Small Steps) *Special treatment as foundational theory chapter*
+- **Chapters 2-4**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+
+**Key Structural Elements**:
 - Opening paragraph(s) explaining the chapter's theme
-- **体験談** (Personal experiences/anecdotes) - 4-5 concrete stories
-- **活用事例** (Use cases) - Real-world applications 
-- **ツール** (Tools) - Practical tools and frameworks
+- Main content sections with chapter-specific titles (avoid generic "体験談", "活用事例")
+- Tools or strategic processes section
 - **明日から実践できる「小さな一歩」** (Small steps to practice from tomorrow)
+- **第○章のまとめ** (Chapter summary)
 
 ### Style Guidelines
 - Use です・ます調 (polite form) consistently
@@ -194,3 +199,23 @@ When reviewing chapters, verify:
   - "失敗の連鎖" → "挑戦・学習・転換の実践"
   - "失敗" → "試行錯誤" where appropriate
 - Consistent です・ます調 maintained throughout
+- **Chapter 4 comprehensive revision** (incorporating ESM president's vision):
+  - Added ESM AI utilization history timeline (2023-2025)
+  - Integrated story of late Professor Nonaka's SECI model and AI insights
+  - Emphasized "tacit knowledge → tacit knowledge" as Eiwa's competitive advantage
+  - Restructured SECI model explanations to eliminate redundancy
+  - Changed section names for better impact:
+    - "体験談" → "個人から組織へ：AI活用の変革ストーリー"
+    - "活用事例" → "実践知を育む組織設計：SECIモデルとフロネシス"
+  - Enhanced narrative flow from individual AI adoption to organizational capability
+  - Character count optimized from ~7,700 to ~9,700 with improved density
+- **Chapter structure standardization**:
+  - **Standardized Section Structure**:
+    - **Chapter 1**: Content → Summary → Appendix (Tools, Small Steps)
+    - **Chapters 2-4**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+  - **Section naming guidelines**: Avoid generic names like "体験談" and "活用事例"; use chapter-specific, memorable titles
+  - **"明日から実践できる「小さな一歩」" requirements**:
+    - Must include time specifications (5-20 minutes for immediate actions)
+    - Focus on truly immediate, actionable steps (not strategic processes)
+    - Avoid confusion with longer-term strategic initiatives
+    - Reserved only for low-risk activities that can be implemented immediately
