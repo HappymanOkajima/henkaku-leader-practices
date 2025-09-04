@@ -37,6 +37,17 @@ Each chapter should follow the structure defined in `0-outline.md`:
 - Maintain a balance between theoretical concepts and practical experiences
 - Include specific examples from Fukui Prefecture projects (especially 高浜町)
 - Reference the author's experiences at 永和システムマネジメント (Eiwa System Management)
+- Avoid overuse of "失敗" (failure) - prefer "試行錯誤" (trial and error), "挑戦" (challenge), "学び" (learning)
+- Frame setbacks as learning opportunities rather than failures
+- Use positive, forward-looking language while remaining realistic
+
+### Chapter Ending Consistency
+Each chapter should end with:
+- **第○章のまとめ**: Summarize key points in a structured format
+- **実践への示唆**: Provide practical implications
+- **Next chapter transition**: Brief preview of the upcoming chapter
+- Avoid personal reflections or "おわりに" style endings
+- Maintain educational textbook tone throughout
 
 ### Key Themes
 1. Evolution from 2006 "目的／課題／アクション" to 2025 "観察／仮説／実験／検証／学習"
@@ -47,7 +58,10 @@ Each chapter should follow the structure defined in `0-outline.md`:
 ## Important Context
 
 ### Key Projects Referenced
-- **FDO (Future Design Office)**: Machine learning skill development project
+- **FDO (Future Design Office)**: Technology catchup and talent development project (2020-2023)
+  - Started as broad technology exploration (AI, Unity, AR)
+  - Focused on machine learning from late 41st term
+  - Evolved into "develop and return" talent model
 - **アジプラ (Agility Platform)**: Cross-organizational support platform
 - **Agile Studio**: Marketing and knowledge-sharing initiative
 - **福井県高浜町**: Municipal DX projects
@@ -59,8 +73,22 @@ Each chapter should follow the structure defined in `0-outline.md`:
 - **OODA Loop**: Observe, Orient, Decide, Act
 - **Psychological Safety**: Based on Amy Edmondson's research
 - **X-as-a-Service Model**: Platform approach to organizational capabilities
+- **Double-loop Learning**: Questioning assumptions vs. solving within existing frameworks (Chris Argyris)
+- **Antifragile**: Systems that grow stronger from stress (Nassim Taleb)
+- **High Reliability Organizations (HRO)**: Five principles for resilient organizations (Weick & Sutcliffe)
 
 ## Editorial Guidelines
+
+### Chapter Density Management
+- Target character count: 10,000-15,000 characters per chapter
+- Current status:
+  - Prologue: ~2,300 characters (appropriate for introduction)
+  - Chapter 1: ~11,400 characters (well-balanced)
+  - Chapter 2: ~19,100 characters (comprehensive, may need trimming)
+  - Chapter 3: ~10,100 characters (optimized through iterative refinement)
+- Balance concrete experiences with theoretical depth
+- Avoid fictional dialogue and hypothetical examples
+- Place theoretical concepts after concrete examples for better flow
 
 ### Content Review Focus
 - **Reader Perspective**: Always consider "What value does this provide to the reader?"
@@ -84,6 +112,13 @@ When reviewing chapters, verify:
 - [ ] Smooth transitions between sections
 - [ ] Appropriate use of technical terms with explanations
 - [ ] Consistent tone (です・ます調) throughout
+- [ ] Character count is within 10,000-15,000 range (except prologue/epilogue)
+- [ ] Theory placement follows concrete examples
+- [ ] No fictional dialogues or hypothetical examples
+- [ ] Historical accuracy verified for project descriptions
+- [ ] Chapter ends with "第○章のまとめ" format
+- [ ] Avoids excessive use of negative terminology
+- [ ] Maintains constructive, educational tone throughout
 
 ## Book Production Focus
 
@@ -113,6 +148,9 @@ When reviewing chapters, verify:
 3. Verify all technical terms are explained
 4. Ensure examples are concrete and relevant
 5. Suggest improvements for clarity and impact
+6. Ensure chapter ending follows standardized format
+7. Review for overuse of negative terminology
+8. Verify educational textbook tone is maintained
 
 ### Updating the Outline
 - Keep chapter outlines in `0-outline.md` concise (20-30 lines per chapter)
@@ -121,5 +159,38 @@ When reviewing chapters, verify:
 
 ### Working with Sources
 - Reference materials are in `sources/` directory
-- `sources/web.md` contains links to presentation materials
+- `sources/index.md` contains comprehensive index of web resources, Markdown documents, and PDF files
 - Use WebFetch tool to extract content from DocsWell presentations when needed
+
+### Improving Chapter Density
+1. **Expanding thin content**:
+   - Add detailed 体験談 with specific dialogue and situations
+   - Include theoretical frameworks to provide depth
+   - Add practical tools and implementation steps
+   
+2. **Compressing verbose content**:
+   - Remove fictional character dialogues
+   - Eliminate hypothetical company examples
+   - Consolidate overlapping theoretical explanations
+   - Focus on real experiences and actual outcomes
+
+3. **Reorganizing for flow**:
+   - Place theoretical concepts after concrete examples
+   - Move abrupt explanations to contextually appropriate sections
+   - Ensure smooth transitions between theory and practice
+
+### Recent Editorial Decisions (September 2025)
+- Chapter 3 refined through multiple iterations:
+  - Initial expansion from ~6,300 to ~20,000 characters
+  - Compression to ~10,100 characters by removing fictional elements
+  - Theory placement optimized (SECI, double-loop learning moved to appropriate contexts)
+- FDO narrative accuracy improved:
+  - Clarified initial broad technology focus
+  - Machine learning focus from 41st term properly documented
+- Chapter endings standardized:
+  - "第○章のまとめ" format adopted
+  - Personal reflections replaced with structured summaries
+- Terminology refinements:
+  - "失敗の連鎖" → "挑戦・学習・転換の実践"
+  - "失敗" → "試行錯誤" where appropriate
+- Consistent です・ます調 maintained throughout
