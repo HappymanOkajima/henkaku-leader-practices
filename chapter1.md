@@ -178,9 +178,9 @@
 
 **ツール：**
 
-* カンバン（タスクの見える化だけでなく、フローの滞りを検知する視点で）（参考：https://www.agile-studio.jp/post/apm-sprint-backlog - アジャイルプラクティスマップのカンバン解説）【主に実験・検証のステップで活用】  
+* カンバン（タスクの見える化だけでなく、フローの滞りを検知する視点で）（参考：https://www.agile-studio.jp/post/apm-sprint-backlog - 永和システムマネジメントのAgile Studioが提供するアジャイルプラクティスマップのカンバン解説）【主に実験・検証のステップで活用】  
 * AI駆動議事録（決定、リスク、ネクストアクションなど、目的志向・学習促進型の会議記録。生成AIを活用して効率化。本書の別章で詳述）【観察・学習のステップでの情報共有に有効】  
-* KPT（Keep, Problem, Try：チームの学習を促進する振り返り）（参考：https://www.agile-studio.jp/post/apm-sprint-retrospective - スプリントレトロスペクティブでの活用方法）【学習・次の仮説立案のステップに貢献】  
+* KPT（Keep, Problem, Try：チームの学習を促進する振り返り）（参考：https://www.agile-studio.jp/post/apm-sprint-retrospective - Agile Studioのスプリントレトロスペクティブでの活用方法）【学習・次の仮説立案のステップに貢献】  
 * 簡易プロトタイピングツール（紙芝居、モックアップ作成など非IT含む）（参考：https://www.figma.com/ai/ - Figma AI、https://www.texttodesign.ai/ - Text to Designなど、プロンプトからUIを自動生成）【仮説・実験のステップで特に重要】  
 * 顧客インタビュー／観察ガイド（参考：https://pm-ai-insights.com/userinterview-guide/ - 目的・設計・やり方・分析を網羅的に解説）【観察・検証ステップの質を高める】
 * 最小実行可能プロダクト（MVP）計画シート（参考：https://monstar-lab.com/dx/solution/howto-mvpcanvas/ - 仮説・目的・方法など10の要素を整理できるMVPキャンバス）【仮説・実験ステップを構造化】  
