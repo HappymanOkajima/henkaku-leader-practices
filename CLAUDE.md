@@ -13,7 +13,21 @@ You are acting as an experienced Japanese business book editor, responsible for:
 
 ## Project Overview
 
-This is a Japanese book manuscript project titled "変革リーダーの実践技術" (Transformational Leader's Practical Techniques), updating a 2006 edition for 2025. The book focuses on modern leadership practices in the context of agile transformation, organizational change, and digital transformation.
+This is a Japanese book manuscript project titled "変革リーダーの実践技術" (Transformational Leader's Practical Techniques), updating a 2006 edition for 2026. The book focuses on modern leadership practices in the context of agile transformation, organizational change, and digital transformation.
+
+### Book Structure (8 Chapters)
+- **プロローグ**: 2006→2026：なぜ「変革リーダーの実践技術」が必要か
+- **第1部：基盤編**
+  - 第1章：アウトカムループ（観察／仮説／実験／検証／学習）
+  - 第2章：心理的安全性と権限移譲
+  - 第3章：SECIモデルが生んだ「育てて返す」モデル
+- **第2部：実践編**
+  - 第4章：AIを組織能力に変える
+  - 第5章：測定の罠から価値の本質へ（OKR）
+  - 第6章：日本企業におけるアジャイル経営への道
+- **第3部：発展編**
+  - 第7章：スケールする組織設計
+- **エピローグ**: あなたもまた、変革リーダーである
 
 ## Repository Structure
 
@@ -55,7 +69,7 @@ Each chapter should end with:
 - Maintain educational textbook tone throughout
 
 ### Key Themes
-1. Evolution from 2006 "目的／課題／アクション" to 2025 "観察／仮説／実験／検証／学習"
+1. Evolution from 2006 "目的／課題／アクション" to modern "観察／仮説／実験／検証／学習"
 2. From Output-focused to Outcome-focused mindset
 3. Psychological safety and empowerment as foundations
 4. Organizational resilience through diversity, learning, and adaptability
@@ -66,8 +80,8 @@ Each chapter should end with:
 - **FDO (Future Design Office)**: Technology catchup and talent development project (2020-2023)
   - Started as broad technology exploration (AI, Unity, AR)
   - Focused on machine learning from late 41st term
-  - Evolved into "develop and return" talent model
-- **アジプラ (Agility Platform)**: Cross-organizational support platform
+  - Evolved into "育てて返す" (develop and return) talent model
+- **アジプラ (Agility Platform)**: Cross-organizational support platform (2023年7月設立)
 - **Agile Studio**: Marketing and knowledge-sharing initiative
 - **福井県高浜町**: Municipal DX projects
 - **ふくいGirls未来のテックリーダー**: STEM education for female students
@@ -82,6 +96,11 @@ Each chapter should end with:
 - **Antifragile**: Systems that grow stronger from stress (Nassim Taleb)
 - **High Reliability Organizations (HRO)**: Five principles for resilient organizations (Weick & Sutcliffe)
 
+### Terminology Standards
+- **「育てて返す」モデル**: The preferred term for the FDO talent development model (replaces "Learning-as-a-Service")
+- **『現場リーダーの技術』**: Reference to the 2006 book (without year prefix)
+- **二十年**: Use "二十年" not "約二十年" (for 2026 publication)
+
 ## Editorial Guidelines
 
 ### Chapter Density Management
@@ -89,8 +108,9 @@ Each chapter should end with:
 - Current status:
   - Prologue: ~2,300 characters (appropriate for introduction)
   - Chapter 1: ~11,400 characters (well-balanced)
-  - Chapter 2: ~19,100 characters (comprehensive, may need trimming)
+  - Chapter 2: ~17,000 characters (comprehensive)
   - Chapter 3: ~10,100 characters (optimized through iterative refinement)
+  - Chapter 4: ~9,700 characters (optimized with improved density)
 - Balance concrete experiences with theoretical depth
 - Avoid fictional dialogue and hypothetical examples
 - Place theoretical concepts after concrete examples for better flow
@@ -100,6 +120,7 @@ Each chapter should end with:
 - **Practical Application**: Ensure each chapter provides actionable insights
 - **Story Quality**: Verify that 体験談 (experiences) are concrete, relatable, and illustrative
 - **Balance**: Check theory-practice balance (avoid too abstract or too detailed)
+- **Factual Accuracy**: Ensure all episodes are based on actual events (remove fictional elements)
 
 ### Cross-Chapter Consistency
 - Terminology consistency across all chapters
@@ -172,7 +193,7 @@ When reviewing chapters, verify:
    - Add detailed 体験談 with specific dialogue and situations
    - Include theoretical frameworks to provide depth
    - Add practical tools and implementation steps
-   
+
 2. **Compressing verbose content**:
    - Remove fictional character dialogues
    - Eliminate hypothetical company examples
@@ -184,38 +205,45 @@ When reviewing chapters, verify:
    - Move abrupt explanations to contextually appropriate sections
    - Ensure smooth transitions between theory and practice
 
-### Recent Editorial Decisions (September 2025)
-- Chapter 3 refined through multiple iterations:
-  - Initial expansion from ~6,300 to ~20,000 characters
-  - Compression to ~10,100 characters by removing fictional elements
-  - Theory placement optimized (SECI, double-loop learning moved to appropriate contexts)
-- FDO narrative accuracy improved:
-  - Clarified initial broad technology focus
-  - Machine learning focus from 41st term properly documented
-- Chapter endings standardized:
-  - "第○章のまとめ" format adopted
-  - Personal reflections replaced with structured summaries
-- Terminology refinements:
-  - "失敗の連鎖" → "挑戦・学習・転換の実践"
-  - "失敗" → "試行錯誤" where appropriate
-- Consistent です・ます調 maintained throughout
-- **Chapter 4 comprehensive revision** (incorporating ESM president's vision):
-  - Added ESM AI utilization history timeline (2023-2025)
-  - Integrated story of late Professor Nonaka's SECI model and AI insights
-  - Emphasized "tacit knowledge → tacit knowledge" as Eiwa's competitive advantage
-  - Restructured SECI model explanations to eliminate redundancy
-  - Changed section names for better impact:
-    - "体験談" → "個人から組織へ：AI活用の変革ストーリー"
-    - "活用事例" → "実践知を育む組織設計：SECIモデルとフロネシス"
-  - Enhanced narrative flow from individual AI adoption to organizational capability
-  - Character count optimized from ~7,700 to ~9,700 with improved density
-- **Chapter structure standardization**:
-  - **Standardized Section Structure**:
-    - **Chapter 1**: Content → Summary → Appendix (Tools, Small Steps)
-    - **Chapters 2-4**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
-  - **Section naming guidelines**: Avoid generic names like "体験談" and "活用事例"; use chapter-specific, memorable titles
-  - **"明日から実践できる「小さな一歩」" requirements**:
-    - Must include time specifications (5-20 minutes for immediate actions)
-    - Focus on truly immediate, actionable steps (not strategic processes)
-    - Avoid confusion with longer-term strategic initiatives
-    - Reserved only for low-risk activities that can be implemented immediately
+### Recent Editorial Decisions (December 2025)
+
+#### Terminology and Year Updates
+- Publication year confirmed as 2026
+- "約二十年" → "二十年" throughout
+- "2006→2025" → "2006→2026" in prologue
+- "Learning-as-a-Service" → "「育てて返す」モデル" (Japanese term preferred)
+- Section headers no longer include year references (e.g., "2006年から2025年へ" removed)
+
+#### Factual Accuracy Improvements
+- Chapter 2: Removed fictional episode "心理的安全性がもたらす変化：プロダクトオーナー失敗体験から"
+  - Fictional conversations with "若手エンジニア" and "マーケティング担当者" removed
+  - Fictional quote "会社の恥をさらすのか" removed (never actually said)
+  - Factual part (external presentation and positive response) integrated into Step 1 as brief example
+
+#### Chapter Structure Standardization
+- **Standardized Section Structure**:
+  - **Chapter 1**: Content → Summary → Appendix (Tools, Small Steps)
+  - **Chapters 2-4**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+- **Section naming guidelines**: Avoid generic names like "体験談" and "活用事例"; use chapter-specific, memorable titles
+- **"明日から実践できる「小さな一歩」" requirements**:
+  - Must include time specifications (5-20 minutes for immediate actions)
+  - Focus on truly immediate, actionable steps (not strategic processes)
+  - Avoid confusion with longer-term strategic initiatives
+  - Reserved only for low-risk activities that can be implemented immediately
+
+#### Chapter 3 Refinements
+- FDO narrative accuracy improved
+- Clarified initial broad technology focus
+- Machine learning focus from 41st term properly documented
+- SECIモデルは「無意識の実践」ではなく「意図的な採用」（2020年設立時から）
+- "Learning-as-a-Service" → "「育てて返す」モデル" throughout
+
+#### Chapter 4 Comprehensive Revision
+- Added ESM AI utilization history timeline (2023-2025)
+- Integrated story of late Professor Nonaka's SECI model and AI insights
+- Emphasized "tacit knowledge → tacit knowledge" as Eiwa's competitive advantage
+- Restructured SECI model explanations to eliminate redundancy
+- Changed section names for better impact:
+  - "体験談" → "個人から組織へ：AI活用の変革ストーリー"
+  - "活用事例" → "実践知を育む組織設計：SECIモデルとフロネシス"
+- Enhanced narrative flow from individual AI adoption to organizational capability
