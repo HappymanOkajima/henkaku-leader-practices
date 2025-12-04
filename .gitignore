@@ -20,3 +20,8 @@ Thumbs.db
 tpj_story.md
 all.md
 download_images.py
+
+# Project specific
+.claude/
+sources/
+temp/
