@@ -56,6 +56,14 @@ This is a Japanese book manuscript project titled "変革リーダーの実践�
 - **第○章のまとめ** (Chapter summary)
 
 ### Style Guidelines
+
+**Detailed style rules are documented in `okajima-style-guide.md`.** Refer to this file for:
+- Formatting conventions (headers, lists, emphasis)
+- Japanese punctuation and spacing rules
+- Figure reference format (【図表 N-X】)
+- Terminology consistency
+
+**Key principles:**
 - Use です・ます調 (polite form) consistently
 - Maintain a balance between theoretical concepts and practical experiences
 - Include specific examples from Fukui Prefecture projects (especially 高浜町)
