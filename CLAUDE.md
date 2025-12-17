@@ -13,6 +13,9 @@ You are acting as an experienced Japanese business book editor, responsible for:
 
 ## Project Overview
 
+- **Author**: 岡島幸男 (Okajima Yukio)
+- **Affiliation**: 永和システムマネジメント (Eiwa System Management)
+
 This is a Japanese book manuscript project titled "変革リーダーの実践技術" (Transformational Leader's Practical Techniques), updating a 2006 edition for 2026. The book focuses on modern leadership practices in the context of agile transformation, organizational change, and digital transformation.
 
 ### Book Structure (8 Chapters)
@@ -42,7 +45,8 @@ This is a Japanese book manuscript project titled "変革リーダーの実践�
 
 **Standardized Section Structure**:
 - **Chapter 1**: Content → Summary → Appendix (Tools, Small Steps) *Special treatment as foundational theory chapter*
-- **Chapters 2-4**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+- **Chapters 2-7**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+- **Prologue/Epilogue**: Free-form narrative structure (shorter length, no strict format)
 
 **Key Structural Elements**:
 - Opening paragraph(s) explaining the chapter's theme
@@ -105,12 +109,16 @@ Each chapter should end with:
 
 ### Chapter Density Management
 - Target character count: 10,000-15,000 characters per chapter
-- Current status:
-  - Prologue: ~2,300 characters (appropriate for introduction)
-  - Chapter 1: ~11,400 characters (well-balanced)
-  - Chapter 2: ~17,000 characters (comprehensive)
-  - Chapter 3: ~10,100 characters (optimized through iterative refinement)
-  - Chapter 4: ~9,700 characters (optimized with improved density)
+- Current status (as of December 2025):
+  - Prologue: ~2,200 characters (appropriate for introduction)
+  - Chapter 1: ~11,700 characters (well-balanced)
+  - Chapter 2: ~17,200 characters (comprehensive)
+  - Chapter 3: ~14,400 characters (refined with Okajima style)
+  - Chapter 4: ~13,500 characters (refined with Okajima style)
+  - Chapter 5: ~14,300 characters (refined with Okajima style)
+  - Chapter 6: ~14,100 characters (refined with Okajima style)
+  - Chapter 7: ~9,600 characters (slightly under target)
+  - Epilogue: ~3,200 characters (appropriate for closing)
 - Balance concrete experiences with theoretical depth
 - Avoid fictional dialogue and hypothetical examples
 - Place theoretical concepts after concrete examples for better flow
@@ -223,10 +231,11 @@ When reviewing chapters, verify:
 #### Chapter Structure Standardization
 - **Standardized Section Structure**:
   - **Chapter 1**: Content → Summary → Appendix (Tools, Small Steps)
-  - **Chapters 2-4**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+  - **Chapters 2-7**: Content → Tools/Strategic Process → "明日から実践できる「小さな一歩」" → Summary
+  - **Prologue/Epilogue**: Free-form narrative (no strict format required)
 - **Section naming guidelines**: Avoid generic names like "体験談" and "活用事例"; use chapter-specific, memorable titles
 - **"明日から実践できる「小さな一歩」" requirements**:
-  - Must include time specifications (5-20 minutes for immediate actions)
+  - Must include time specifications (15-45 minutes for immediate actions)
   - Focus on truly immediate, actionable steps (not strategic processes)
   - Avoid confusion with longer-term strategic initiatives
   - Reserved only for low-risk activities that can be implemented immediately
@@ -247,3 +256,16 @@ When reviewing chapters, verify:
   - "体験談" → "個人から組織へ：AI活用の変革ストーリー"
   - "活用事例" → "実践知を育む組織設計：SECIモデルとフロネシス"
 - Enhanced narrative flow from individual AI adoption to organizational capability
+
+#### Chapter 5-7 and Epilogue Refinements (December 2025)
+- Applied Okajima style guide across all chapters for consistency
+- **Chapter 5**: OKR and measurement traps, based on 2000万円 project experience
+- **Chapter 6**: Japanese enterprise agile transformation, 竹とんぼ型スパイラルアップモデル
+- **Chapter 7**: Scaling organizational design, CoE and external communication strategies
+- **Epilogue**: Closing narrative connecting all chapters, encouraging reader's own transformation journey
+
+#### Okajima Style Guide Application
+- Consistent formatting for headers, lists, and emphasis
+- Standardized use of Japanese punctuation and spacing
+- Unified approach to figure references (【図表 N-X】format)
+- Removed figure number titles from images (pic2-1 to pic7-5)
